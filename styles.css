@@ -1,0 +1,23 @@
+/* Here we apply styles to the entire <body> tag */
+body {
+    background-color: #EFEFEF;
+}
+
+/* We can also do this with other tags such as <button> */
+button {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Here we create a custom class to use in our HTML */
+.card {
+    padding: 16px;
+    border: 1px solid lightgray;
+    border-radius: 16px;
+    width: fit-content;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
